@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>EziKey Admin Tool</title>
+    
+</head>
+<body>
+    Login:
+    <input type="text" id="login"/>
+    <br />
+    Password:
+    <input type="password" id="password" />
+    <br />
+    <button id="btnLogin">Login</button>
+
+    <script src="js/zepto.min.js"></script>
+    <script>
+        $('btnLogin').click(function () {
+            $('login').value = "jim.yu";
+            $('password').value = "jim.yu";
+        });
+    </script>
+</body>
+</html>
